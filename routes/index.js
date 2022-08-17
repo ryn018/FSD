@@ -21,6 +21,12 @@ router.get('/destination', ensureGuest, (req, res) => {
   })
 })
 
+router.get('/plan', ensureGuest, (req, res) => {
+  res.render('plan', {
+    layout: 'plan',
+  })
+})
+
 router.get('/login', ensureGuest, (req, res) => {
   res.render('login', {
     layout: 'login',
