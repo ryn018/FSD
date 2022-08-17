@@ -1,0 +1,60 @@
+<h3>Share Your Travel Experiences </h3>
+<p>Every travel tale has something special, this is why we invite you all to share yours with us. 
+    We’d be more than happy to hear your travelling experiences of India and what
+     in the country triggers your wanderlust or touched your heart the most while exploring. 
+     Let us together create a section where inspiration to travel overflows and cordial bonds are created to be cherished forever. 
+     This is your space to speak your mind about travel and make the most of it.</p>
+<div class="row">
+    <form action="/stories" method="POST" class="col s12">
+        <div class="row">
+            <div class="input-field">
+                <input type="text" id="title" name="title">
+                <label for="title">Title for Your Trip</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <select id="status" name="status">
+                    <option value="public" selected>Public</option>
+                    <option value="private">Private</option>
+                </select>
+                <label for="status">Status</label>
+            </div>
+        </div>
+
+                {{!-- <div class="row">
+            <div class="input-field">
+                <select id="district" name="District you visited">
+                    <option value="Thiruvanathapuram" >Thiruvanathapuram</option>
+                    <option value="Kollam">Kollam</option>
+                    <option value="Kannur">Kannur</option>
+                    <option value="Alappuzha">Alappuzha</option>
+                    <option value="Wayanad">Malappuram</option>
+                    <option value="Kottayam">Kottayam</option>
+                    <option value="Kollam">Kollam</option>
+                    <option value="Idukki">Idukki</option>
+                    <option value="Ernakualam">Ernakualam</option>
+                    <option value="Pathanamthitta">Pathanamthitta</option>
+                    <option value="Kasargod">Kasargod</option>
+                    <option value="Thrissur">Thrissur</option>
+                    <option value="Palakkad">Palakkad</option>
+                    <option value="Kozhikode">Kozhikode</option>
+                </select>
+                <label for="status">Districts</label>
+            </div>
+        </div> --}}
+
+        <div class="row">
+            <div class="input-field">
+                <h5>Share Your Travel Experiences :</h5>
+                <textarea id="body" name="body"></textarea>
+            </div>
+        </div>
+
+        <div class="row">
+            <input type="submit" value="Save" class="btn">
+            <a href="/dashboard" class="btn orange">Cancel</a>
+        </div>
+    </form>
+</div>

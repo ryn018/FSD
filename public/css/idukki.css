@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.one{
+    background:rgb(0,0,0,0.7) url(../images/1635872318347.jpeg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: 100% 130vh;
+    background-blend-mode: darken;
+    position: relative;
+    z-index: 1;
+}
+
+
+.one h1{
+    background-clip: text;
+    background: linear-gradient(to right,rgb(31, 20, 194),rgb(190, 190, 201));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+ }
+ .one h1{
+     text-align: center;
+    font-size: 55px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    margin-left: -20px;
+ }   
+ .one p{
+     text-align: center;
+     margin-left: -150px;
+     margin-bottom: 12px;
+     margin-top:-20px;
+     color: rgb(206, 202, 203);
+     padding: 2px;
+     font-family: cursive;
+    
+ }
+.two {
+    background-image: url(../images/joshua-sukoff-57G2uAtnsRw-unsplash.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+.two h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1px;   
+    margin-top: -170px; 
+    color:rgb(223, 203, 26);
+    font-family: cursive;
+    font-size: 34px;
+}
+.two .new ul{
+    text-indent: 10px;
+    text-align: justify;
+    margin-right: 1px;
+    margin-bottom:-140px;
+    color: white;
+}
+.two li{
+    font-size: 22px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.three{
+    background:rgb(0,0,0,0.7) url(../images/navin-shibu-P2AyEOz20pk-unsplash.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.three h1{
+    font-size: 28px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.three .col p{
+    font-size: 20px;
+    font-family: cursive;
+    color: rgb(57, 74, 235);
+    text-align: center;
+}
+.row{
+    display: inline-block;
+    height: 20%;
+    align-items: center;
+
+}
+.col{
+    flex-basis: 50%;
+    margin-top: -50px;
+}
+.col h1{
+    margin-top: -155px;
+    margin-left: 575px;
+
+}
+.col p{
+    color: rgb(254, 254, 255);
+    font-size: 11px;
+}
+.card{
+    width: 280px;
+    height: 320px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin-top: 110px;
+    margin-right: 25px;
+    margin-left: 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+.card1{
+    background:rgb(0,0,0,0.4) url(../images/meesapulimala.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.card2{
+    background:rgb(0,0,0,0.4)url(../images/Idukki\ national\ park.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.card3{
+    background:rgb(0,0,0,0.4) url(../images/Idukki\ arch\ dam.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.card4{
+    background:rgb(0,0,0,0.4) url(../images/Anamudi\ Shola\ National\ park.png);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card1 h2{
+    font-size: 27px;
+    color: white;
+    text-align: center;
+}
+.card2 h2{
+    font-size: 27px;
+    color: white;
+    text-align: center;
+}
+.card3 h2{
+    font-size: 27px;
+    color: white;
+    text-align: center;
+}
+.card4 h2{
+    font-size: 27px;
+    color: white;
+    text-align: center;
+}
+.card h4{
+    font-size: 23px;
+    color: white;
+    font-family: cursive;
+}
